@@ -1,0 +1,262 @@
+@media(max-width:1000px){
+    /* header */
+    header .logo i{
+        font-size: 26px;
+        margin-right: 10px;
+    }
+    header .logo h1{
+        font-size: 16px;
+    }
+    header ul li{
+        list-style: none;
+        margin: 0 0 0 12px;
+    }
+    header ul li a{
+        font-size: 12px;
+    }
+
+    /* Section Pertama (Landing Page) */
+    section.first{
+        flex-direction: column;
+        padding: 50px 130px;
+    }
+    section.first img{
+        max-width: 600px;
+    }
+    section.first .right{
+        flex-basis: 100%;
+    }
+    section.first .right h2{        
+        font-size: 28px;
+        align-self: center;
+    }
+    section.first .right h3{
+        margin: 20px 0;
+        font-size: 14px;
+        color: rgb(249,249,249);
+        font-weight: 400;
+        text-align: center;
+    }
+    section.first .right a.button-one{        
+        background: white;
+        color: rgb(92,99,239);    
+        align-self: center;
+        border-radius: 17px;
+        padding: 12px 25px;
+        max-width: 150px;    
+        font-size: 12px;
+        font-weight: 600;
+    }
+    section.first .left{
+        flex-basis: 100%;
+        margin-right: 0px;
+        align-items: flex-end;
+    }
+
+    /* section kedua */
+    .lesson-wrapper .lesson {
+        width: 25%;
+        margin-bottom: 20px;
+    }
+    .lesson-wrapper .heading h2 {
+        font-size: 20px;
+    }
+
+    /* Section 3 - tablet */
+    .third .heading h2 {
+        font-size: 22px;
+    }
+    .third .heading {
+        padding-bottom: 80px;
+    }
+    .third {
+        height: 1000px;
+    }
+    .third .image-wrapper img {
+        width: 255px;
+        height: 159px;
+    }
+    .third .work {
+        margin-right: 50px;
+    }
+
+    
+    /* Section Ke Empat - Our Teams */
+    section.fourth{
+        padding: 50px 90px;
+    }
+    section.fourth h2{
+        font-size: 36px;
+    }
+    section.fourth h3{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    section.fourth .fourth-items{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    section.fourth .fourth-item{
+        flex-basis: 25%;
+        margin: 10px 10px;
+    }
+    section.fourth .fourth-top{
+        background: rgb(77,119,133);
+        border-radius: 15px 15px 0 0;
+    }
+    section.fourth h4{
+        font-size: 14px;
+    }
+    section.fourth h5{
+        font-size: 11px;
+        padding: 0 0 20px 0;
+    }
+    section.fourth .fourth-item p{
+        font-size: 10px;
+        margin: 15px 0;
+    }
+    section.fourth .fourth-social li{
+        padding: 0 5px;
+    }
+    
+    /* sectuion 5 */
+    section.fifth-section .fifth-title h5{
+        font-size: 32px;
+    }
+	.fifth .contact-box{
+		grid-template-columns: 1fr;
+	}
+	.fifth .left{
+		height: 200px;
+    }
+
+}
+@media(max-width:700px){
+    /* header */
+    header{        
+        padding: 15px 60px;
+    }
+    header .logo i{
+        font-size: 22px;
+        margin-right: 8px;
+    }
+    header .logo h1{
+        font-size: 14px;
+    }
+    header ul{
+        display: none;
+    }
+    header .menu-icon{
+        display: block;
+        font-size: 22px;
+    }
+
+    /* Section Pertama (Landing Page) */
+    section.first{
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        padding: 50px 60px;
+    }
+    section.first img{
+        max-width: 600px;
+    }
+    section.first .right{
+        flex-basis: 100%;
+    }
+    section.first .right h2{        
+        font-size: 25px;
+        text-align: center;
+    }
+    section.first .right h3{
+        margin: 18px 0;
+        font-size: 12px;
+        color: rgb(249,249,249);
+        font-weight: 400;
+        text-align: center;
+    }
+    section.first .right a.button-one{        
+        background: white;
+        color: rgb(92,99,239);    
+        align-self: center;
+        border-radius: 17px;
+        padding: 12px 25px;
+        max-width: 150px;    
+        font-size: 11px;
+        font-weight: 600;
+    }
+    section.first .left{
+        flex-basis: 100%;
+        margin-right: 0px;
+        align-items: flex-end;
+    }
+
+    /* section kedua */
+    .lesson-wrapper .lesson {
+        width: 80%;
+    }
+
+    /* Section 3 - mobile */
+    .third .works {
+        display: block;
+    }
+    .third .flex-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .third .image-wrapper img {
+        width: 230px;
+    }
+    .third {
+        height: 1100px;
+    }
+    
+    /* Section Ke Empat - Our Teams */
+    section.fourth{
+        padding: 30px 50px;
+    }
+    section.fourth h2{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    section.fourth h3{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    section.fourth .fourth-items{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    section.fourth .fourth-item{
+        flex-basis: 90%;
+        margin: 10px 10px;
+    }
+    section.fourth .fourth-top{
+        background: rgb(77,119,133);
+        border-radius: 15px 15px 0 0;
+    }
+    section.fourth h4{
+        font-size: 18px;
+    }
+    section.fourth h5{
+        font-size: 14px;
+        padding: 0 0 20px 0;
+    }
+    section.fourth .fourth-item p{
+        font-size: 12px;
+        margin: 15px 0;
+    }
+    section.fourth .fourth-social li{
+        padding: 0 5px;
+    }
+
+    
+    section.fifth-section .fifth-title h5{
+        font-size: 24px;
+    }
+    
+    footer {
+        text-align: center;
+    }
+        
+}
